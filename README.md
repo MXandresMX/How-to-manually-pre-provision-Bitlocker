@@ -1,5 +1,5 @@
-# How to manually pr-eprovision Bitlocker
-How to manually pre-provision Bitlocker
+# How to manually pre-provision Bitlocker
+#Instalar Windows 10 con bitlocker en 2 sistemas operativos
 
 
-![Test Image 3](/1.png)
+![Install](/1.png)
