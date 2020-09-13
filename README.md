@@ -37,7 +37,9 @@ Una vez que el proceso a llegado al 100%, entonces cerramos la ventana e instala
 Ejecutamos en un cmd `gpedit.msc`
 
 Vaya a Configuración del equipo, Plantillas administrativas, Componentes de Windows, Cifrado de unidad BitLocker, Unidades del sistema operativo.
-
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
-</div>
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+```
