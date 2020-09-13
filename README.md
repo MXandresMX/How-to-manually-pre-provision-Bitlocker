@@ -38,3 +38,6 @@ Ejecutamos en un cmd `gpedit.msc`
 
 Vaya a Configuración del equipo, Plantillas administrativas, Componentes de Windows, Cifrado de unidad BitLocker, Unidades del sistema operativo.
 
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
