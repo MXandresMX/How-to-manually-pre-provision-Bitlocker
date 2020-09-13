@@ -14,4 +14,8 @@ Una vez formateada la partición presionamos SHIFT + F10, se abre una ventana de
 ```
 > diskpart
 > list volume
+> exit
 ```
+![Install](/3.png)
+
+Ahora vamos a cifrar la unidad en este caso es F:, si se quiere cifrar solamente el espacio usado se usa `-used`
