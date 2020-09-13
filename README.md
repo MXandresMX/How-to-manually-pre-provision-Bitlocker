@@ -11,6 +11,7 @@ Una vez creada la partición se elige formatear.
 ![Install](/2.png)
 
 Una vez formateada la partición presionamos SHIFT + F10, se abre una ventana de comando y ejecutamos DISKPART y escribimos LIST VOLUME. Sólo nos interesa saber cual es la letra del unidad que se va a cifrar. Salimos con el comando EXIT
-
+```
 > diskpart
 > list volume
+```
