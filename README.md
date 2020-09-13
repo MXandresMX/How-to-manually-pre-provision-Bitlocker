@@ -51,3 +51,27 @@ Vaya a Configuración del equipo, Plantillas administrativas, Componentes de Win
 6. Para la opción de "Configurar la clave de inicio y el PIN del TPM:", seleccione "Permitir clave y PIN de inicio con TPM".
 7. Haga clic en el botón "Aplicar" y, luego, en el botón "Aceptar" para guardar los cambios en el Editor de directivas de grupo local.
 
+Ahora vamos a agregar el PIN y la encriptación. Sigue las instrucciones en la pantalla e ingresa el pin.
+```
+> manage-bde -protectors -add c: -rp -tpmandpin
+```
+Ahora vamos a exportar el RecoveryKey.
+```
+> manage-bde -protectors -get c:>%userprofile%\desktop\Recoverykey.txt
+```
+Habilitamos la encriptación.
+```
+> manage-bde -protectors -enable c:
+```
+Agregamos un identificador a la instancia de windows. (Opcional)
+```
+> bcdedit /set {current} description "Joe's Windows 10"
+```
+
+```diff
+- Nota: Si vas a realizar la segunda instancia entonces recomendamos guardar la primera key de
+- la primera instancia. Porque cuando instalamos la segunda instancia entonces su letra aparece
+- en el administrador de archivos de la primera instancia. Y hay que meter la key de la primera
+- instancia si nos la pide, pero sera solo 1 vez.
+```
+
