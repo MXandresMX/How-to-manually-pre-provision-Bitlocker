@@ -34,9 +34,9 @@ Una vez que el proceso a llegado al 100%, entonces cerramos la ventana e instala
 
 ```diff
 - Importante! Cuando el sistema operativo haya iniciado sesión,
-necesitamos remover la USB de instalación. 
-Abrir el administrador de discos y seleccionar los discos que no usaremos
-y le daremos OFFLINE
+- necesitamos remover la USB de instalación. 
+- Abrir el administrador de discos y seleccionar los discos que no usaremos
+- y le daremos OFFLINE
 ```
 
 Ejecutamos en un cmd `gpedit.msc`
