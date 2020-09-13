@@ -43,3 +43,11 @@ Ejecutamos en un cmd `gpedit.msc`
 
 Vaya a Configuración del equipo, Plantillas administrativas, Componentes de Windows, Cifrado de unidad BitLocker, Unidades del sistema operativo.
 
+1. “Requerir autenticación adicional al iniciar”. Asegúrese de que la opción “Habilitado” esté seleccionada, de modo que todas las otras opciones estén activas.
+2. Desmarque la casilla para "Permitir BitLocker sin un TPM compatible".
+3. Para la opción de “Configurar inicio del TPM”, seleccione “Permitir TPM”.
+4. Para la opción de "Configurar PIN de inicio del TPM:", seleccione "Requerir PIN de inicio con TPM".
+5. Para la opción de "Configurar clave de inicio del TPM:", seleccione "Permitir clave de inicio con TPM".
+6. Para la opción de "Configurar la clave de inicio y el PIN del TPM:", seleccione "Permitir clave y PIN de inicio con TPM".
+7. Haga clic en el botón "Aplicar" y, luego, en el botón "Aceptar" para guardar los cambios en el Editor de directivas de grupo local.
+
